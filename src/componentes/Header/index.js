@@ -1,0 +1,17 @@
+import './estilo.css'
+import Logo from '../../componentes/Logo'
+import OpcoesHeader from '../../componentes/OpcoesHeader'
+import IconesHeader from '../../componentes/IconesHeader'
+
+function Header() {
+    return(
+        <header className='App-header'>
+        <Logo> </Logo>
+        <OpcoesHeader>  </OpcoesHeader>
+        <IconesHeader> </IconesHeader>
+      
+      </header>
+    )
+}
+
+export default Header
